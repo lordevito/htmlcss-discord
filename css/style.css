@@ -85,7 +85,6 @@ header{
     margin-bottom: 80px;
     width: 480px;
 }
-.btns
 
 /*
 *********
@@ -93,11 +92,9 @@ box
 *********
 */
 .box{
-    margin: 20px auto;
-    height: 300px;
-    max-width: 900px;
-    border: 1px dashed black;
-    
+    margin: 20px auto; 
+    max-width: 1000px;
+    display:flex;
 }
 
 /*
@@ -140,15 +137,22 @@ section{
 }
 
 .blue{
-    background-color: #1e90ff;
     flex-grow: 2;
 }
 
 .pink{
-    background-color: #ffc0cb;
-    flex-grow: 1;  
+    flex-grow: 1;
+    margin-top: 30px; 
 }
-
+.pink h2 {
+    color: black;
+    font-size: 40px;
+}
+.pink p{
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+}
 .bg-grey{
     background-color: #d3d3d3 !important;
 }
