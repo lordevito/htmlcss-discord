@@ -1,0 +1,220 @@
+/*
+*********
+RESET
+*********
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+/*
+*********
+H2
+*********
+*/
+h2{
+    font-size: 35px;
+}
+
+/*
+*********
+HEADER
+*********
+*/
+header{
+    background-image: url(/img/jumbo.png);
+    background-size: cover;
+    padding: 10px;
+}
+ 
+.contenitor-debug{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    max-width: 1100px;
+    padding: 5px;
+}
+.logo-debug{
+    flex-grow: 1;
+}
+.link-debug div{
+    font-size: 16px;
+}
+.link-debug{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+.login-debug{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+    border: none;
+    font-size: 20px;
+}
+#access{
+    font-size: 15px;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-white{
+    background-color: white;
+    color: black;
+}
+#arrow{
+    color: black;
+    height: 7px;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    width: 480px;
+}
+.btns
+
+/*
+*********
+box
+*********
+*/
+.box{
+    margin: 20px auto;
+    height: 300px;
+    max-width: 900px;
+    border: 1px dashed black;
+    
+}
+
+/*
+*********
+fine box
+*********
+*/
+
+/*
+*********
+one
+*********
+*/
+.bg{
+    display: flex;
+    justify-content: center;
+}
+
+#one{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#one h2{
+    padding: 30px 0px;
+}
+#one div{
+    padding: 7px 0px;  
+}
+
+/*
+*********
+Section
+*********
+*/
+
+section{
+    padding: 5px;
+}
+
+.blue{
+    background-color: #1e90ff;
+    flex-grow: 2;
+}
+
+.pink{
+    background-color: #ffc0cb;
+    flex-grow: 1;  
+}
+
+.bg-grey{
+    background-color: #d3d3d3 !important;
+}
+
+.bg-green{
+    background-color: #228b22;
+}
+/*
+*********
+Fine section
+*********
+*/
+
+/*
+*********
+Footer
+*********
+*/
+
+footer{
+    background-color: #23272a;
+    padding: 5px;
+}
+
+.purple {
+    background-color: #f08080;
+    flex-grow: 2;
+    border: 1px dashed black;
+}
+.acqua {
+    background-color: #20b2aa;
+    flex-grow: 1;
+    border: 1px dashed white;
+}
+
+#circle{
+    border-radius: 2%;
+}
+
+hr {
+    border: 2px solid #b4b4b3;
+}
+
+#top {
+    background-color: #7fffd4;
+    margin: 10px auto;
+    display: flex;
+    padding: 15px 0px;
+    justify-content: space-between;
+    width: 900px; 
+}
+
+.button{
+    background-color: #f08080;
+    border: 1px dashed black;
+    
+}
+
+/*
+*********
+Fine Footer
+*********
+*/
+
+
+
+
+
+
