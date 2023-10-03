@@ -85,34 +85,6 @@ header{
     margin-bottom: 80px;
     width: 480px;
 }
-
-/*
-*********
-box
-*********
-*/
-.box{
-    margin: 20px auto; 
-    max-width: 1000px;
-    display:flex;
-}
-
-/*
-*********
-fine box
-*********
-*/
-
-/*
-*********
-one
-*********
-*/
-.bg{
-    display: flex;
-    justify-content: center;
-}
-
 #one{
     padding: 30px;
     display: flex;
@@ -125,6 +97,35 @@ one
 #one div{
     padding: 7px 0px;  
 }
+.bg{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*
+*********
+box
+*********
+*/
+.box{
+    margin: 20px auto; 
+    max-width: 1000px;
+    display:flex;
+}
+.box-v{
+    flex-direction: column;
+}
+.box-v .pink{
+    align-self: center;
+
+}
+
+/*
+*********
+fine box
+*********
+*/
 
 /*
 *********
@@ -156,10 +157,29 @@ section{
 .bg-grey{
     background-color: #d3d3d3 !important;
 }
-
-.bg-green{
-    background-color: #228b22;
+.adventure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.star{
+    background-image: url(/img/stars.svg);
+    background-repeat: no-repeat;
+    width: 400px;
+}
+.adventure h3{
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 30px 0px;
+    text-align: center;
+}
+.btn-blue{
+    background-color: #7289da;
+    color: white;
+}
+
+
 /*
 *********
 Fine section
