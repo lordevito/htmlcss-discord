@@ -1,3 +1,3 @@
-# Progetto struttura discord
+# Progetto discord
 
-Progetto struttura layout discord colorato
+Progetto struttura layout discord 
