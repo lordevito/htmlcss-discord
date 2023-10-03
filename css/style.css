@@ -178,7 +178,6 @@ section{
     color: white;
 }
 
-
 /*
 *********
 Fine section
@@ -197,39 +196,51 @@ footer{
 }
 
 .purple {
-    background-color: #f08080;
     flex-grow: 2;
-    border: 1px dashed black;
+
 }
 .acqua {
-    background-color: #20b2aa;
     flex-grow: 1;
-    border: 1px dashed white;
+    margin: 0px 20px;
 }
 
 #circle{
     border-radius: 2%;
-}
-
-hr {
-    border: 2px solid #b4b4b3;
+    padding: 20px 0px;
 }
 
 #top {
-    background-color: #7fffd4;
     margin: 10px auto;
     display: flex;
     padding: 15px 0px;
     justify-content: space-between;
-    width: 900px; 
+    width: 900px;
+    border-top: 1px solid #4f5d8c; 
 }
 
-.button{
-    background-color: #f08080;
-    border: 1px dashed black;
-    
+.purple h3{
+    color: #7289da;
+    font-size: 40px;
+    margin-left: 10px;
 }
-
+.purple i{
+    margin: 10px;
+}
+.flag{
+    margin: 10px;
+}
+.flag img{
+    height: 18px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin: 20px 0px;
+}
+.text-blue{
+    color: #7289da;
+}
 /*
 *********
 Fine Footer
